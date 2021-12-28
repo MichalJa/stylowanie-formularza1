@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+form {
+    background-color: #213b50;
+    color: #ffffff;
+    padding: 20px;
+    width: 600px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+input, select, textarea {
+    background-color: #2b4a64;
+    color: white;
+    width: 50%;
+    margin-bottom: 10px;
+    border: 1px solid #2b4a64;
+    padding: 5px;
+}
+
+[type="radio"], [type="checkbox"] {
+    width: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+label[for*="male"], label[for="agreement"] {
+    display: inline;
+}
+
+
+input:focus, select:focus, textarea:focus {
+    background-color: #4e708c;
+    border: 1px solid white;
+}
+
+[type="submit"] {
+    background-color: #1ac056;
+    width: auto;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+
+[type="submit"]:hover {
+    background-color: #46e881;
+}
+
+p {
+    margin-block-start: 3px;
+    margin-block-end: 3px;
+}
